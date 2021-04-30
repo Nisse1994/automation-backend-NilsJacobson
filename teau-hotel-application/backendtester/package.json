@@ -1,0 +1,16 @@
+{
+  "name": "backendtester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "faker": "^5.5.3"
+  }
+}
