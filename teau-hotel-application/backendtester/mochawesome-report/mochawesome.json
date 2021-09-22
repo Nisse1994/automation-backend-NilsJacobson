@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-22T05:12:28.651Z",
+    "end": "2021-09-22T05:12:32.394Z",
+    "duration": 3743,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d054e181-9e80-48f9-9ea1-4fc2dd83aa95",
+      "title": "",
+      "fullFile": "cypress/integration/backend-auth.spec.js",
+      "file": "cypress/integration/backend-auth.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a0863289-7833-4ae3-8968-b51d4c05b5de",
+          "title": "test auth",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create client",
+              "fullTitle": "test auth Create client",
+              "timedOut": null,
+              "duration": 1276,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.createCLientRequest(cy);",
+              "err": {},
+              "uuid": "2df89610-b456-49df-8063-91c42f1874aa",
+              "parentUUID": "a0863289-7833-4ae3-8968-b51d4c05b5de",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get all clients",
+              "fullTitle": "test auth Get all clients",
+              "timedOut": null,
+              "duration": 588,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.getAllClientsRequest(cy);",
+              "err": {},
+              "uuid": "b308b0a5-5976-40d1-9200-18a5b29465ea",
+              "parentUUID": "a0863289-7833-4ae3-8968-b51d4c05b5de",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a client and remove it",
+              "fullTitle": "test auth Create a client and remove it",
+              "timedOut": null,
+              "duration": 819,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.createCLientRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "44dd2b96-662f-4c14-9736-e17ab71ec608",
+              "parentUUID": "a0863289-7833-4ae3-8968-b51d4c05b5de",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a client and update it",
+              "fullTitle": "test auth Create a client and update it",
+              "timedOut": null,
+              "duration": 775,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.createCLientRequestAndUpdate(cy);",
+              "err": {},
+              "uuid": "e9feb0ed-fde6-4c21-80ab-7b361d06fa2a",
+              "parentUUID": "a0863289-7833-4ae3-8968-b51d4c05b5de",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2df89610-b456-49df-8063-91c42f1874aa",
+            "b308b0a5-5976-40d1-9200-18a5b29465ea",
+            "44dd2b96-662f-4c14-9736-e17ab71ec608",
+            "e9feb0ed-fde6-4c21-80ab-7b361d06fa2a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3458,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
