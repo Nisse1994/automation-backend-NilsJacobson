@@ -20,7 +20,7 @@ function createRandomClientPayload(){
     return payload
 }
 
-function getRequestAllClientsWithAssertion(cy, name, email, telephone){
+    function getRequestAllClientsWithAssertion(cy, name, email, telephone){
     // Get request gathers the clients
     cy.request({
         method: "GET",
@@ -39,7 +39,7 @@ function getRequestAllClientsWithAssertion(cy, name, email, telephone){
         cy.log(response.body.length)
         
     }))
-}
+} 
 
 function getAllClientsRequest(cy){
     cy.authSession().then((response =>{

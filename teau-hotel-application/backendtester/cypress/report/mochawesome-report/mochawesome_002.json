@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-17T18:42:55.457Z",
+    "end": "2021-10-17T18:43:00.096Z",
+    "duration": 4639,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d8602552-caca-49f0-983a-2f2267330909",
+      "title": "",
+      "fullFile": "cypress/integration/backend-auth3.spec.js",
+      "file": "cypress/integration/backend-auth3.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "18006495-1637-44c6-9461-b087bd99a5fa",
+          "title": "test auth",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create bill",
+              "fullTitle": "test auth Create bill",
+              "timedOut": null,
+              "duration": 1634,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billHelp.createBillRequest(cy);",
+              "err": {},
+              "uuid": "51c1631f-bc94-4315-b1cd-950fcd704e75",
+              "parentUUID": "18006495-1637-44c6-9461-b087bd99a5fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get all bills",
+              "fullTitle": "test auth Get all bills",
+              "timedOut": null,
+              "duration": 885,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billHelp.getAllBillsRequest(cy);",
+              "err": {},
+              "uuid": "7cc20d42-b230-4850-92da-5d59e28c071f",
+              "parentUUID": "18006495-1637-44c6-9461-b087bd99a5fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a bill and remove it",
+              "fullTitle": "test auth Create a bill and remove it",
+              "timedOut": null,
+              "duration": 826,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billHelp.createBillRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "21563218-e339-49e4-8dd3-d2ccea0d8980",
+              "parentUUID": "18006495-1637-44c6-9461-b087bd99a5fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a bill and update it",
+              "fullTitle": "test auth Create a bill and update it",
+              "timedOut": null,
+              "duration": 821,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billHelp.createBillRequestAndUpdate(cy);",
+              "err": {},
+              "uuid": "db3af311-a863-4fdc-8cb9-c06cf10e39cb",
+              "parentUUID": "18006495-1637-44c6-9461-b087bd99a5fa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "51c1631f-bc94-4315-b1cd-950fcd704e75",
+            "7cc20d42-b230-4850-92da-5d59e28c071f",
+            "21563218-e339-49e4-8dd3-d2ccea0d8980",
+            "db3af311-a863-4fdc-8cb9-c06cf10e39cb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4166,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

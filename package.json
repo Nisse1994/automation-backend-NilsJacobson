@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Nisse1994/automation-backend-NilsJacobson#readme",
   "dependencies": {
     "cypress": "^8.4.1"
+  },
+  "devDependencies": {
+    "mochawesome-merge": "^4.2.0"
   }
 }

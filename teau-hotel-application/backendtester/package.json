@@ -4,8 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test:report": "cypress run -- reporter mochawesome"
-    
+    "test:report": "cypress run -- reporter mochawesome",
+    "test:merger": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
+    "test:final": "marge cypress/report/output.json --reportDir cypress/report/ --inline",
+    "generate:merged": "rm cypress/report/ -Rf && npm run test:report && npm run test:merger && npm run test:final"
+
   },
   "keywords": [],
   "author": "",
@@ -13,7 +16,8 @@
   "devDependencies": {
     "cypress": "^7.2.0",
     "faker": "^5.5.3",
-    "mochawesome": "^6.2.2"
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
