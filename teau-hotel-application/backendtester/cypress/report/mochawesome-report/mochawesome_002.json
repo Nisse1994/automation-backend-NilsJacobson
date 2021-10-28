@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-17T19:33:31.249Z",
-    "end": "2021-10-17T19:33:35.430Z",
-    "duration": 4181,
+    "start": "2021-10-28T21:24:53.565Z",
+    "end": "2021-10-28T21:24:58.189Z",
+    "duration": 4624,
     "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "5151f6be-c677-4fa7-ab77-ef6f48b5c527",
+      "uuid": "13b3737e-09d0-4231-bfa1-cb9e770bb496",
       "title": "",
       "fullFile": "cypress/integration/backend-auth3.spec.js",
       "file": "cypress/integration/backend-auth3.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "64c95bf8-ee20-4f8d-9ffe-ae25f94ef6d8",
+          "uuid": "07a99f76-9f87-4fe6-b67b-4145e892d7d6",
           "title": "test auth",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Create bill",
               "fullTitle": "test auth Create bill",
               "timedOut": null,
-              "duration": 1931,
+              "duration": 1013,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "billHelp.createBillRequest(cy);",
               "err": {},
-              "uuid": "6e50c78a-4d28-4397-bda8-1cd3a2a3894d",
-              "parentUUID": "64c95bf8-ee20-4f8d-9ffe-ae25f94ef6d8",
+              "uuid": "1dc4ad0d-9471-47a7-88b8-758938f7f758",
+              "parentUUID": "07a99f76-9f87-4fe6-b67b-4145e892d7d6",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "billHelp.getAllBillsRequest(cy);",
               "err": {},
-              "uuid": "a01c681b-5feb-41fd-9472-c18d29c74a74",
-              "parentUUID": "64c95bf8-ee20-4f8d-9ffe-ae25f94ef6d8",
+              "uuid": "0a9d14de-1ead-4ff7-8805-42d3825a2a76",
+              "parentUUID": "07a99f76-9f87-4fe6-b67b-4145e892d7d6",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Create a bill and remove it",
               "fullTitle": "test auth Create a bill and remove it",
               "timedOut": null,
-              "duration": 626,
+              "duration": 1780,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "billHelp.createBillRequestAndDelete(cy);",
               "err": {},
-              "uuid": "db11cdcc-4211-4386-b1e8-7faa2c5591f4",
-              "parentUUID": "64c95bf8-ee20-4f8d-9ffe-ae25f94ef6d8",
+              "uuid": "4bc96d6f-64a6-48cf-a446-ed60cd5273d1",
+              "parentUUID": "07a99f76-9f87-4fe6-b67b-4145e892d7d6",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Create a bill and update it",
               "fullTitle": "test auth Create a bill and update it",
               "timedOut": null,
-              "duration": 657,
+              "duration": 770,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -101,23 +101,23 @@
               "context": null,
               "code": "billHelp.createBillRequestAndUpdate(cy);",
               "err": {},
-              "uuid": "abee3d92-dabf-404e-879b-282756c64544",
-              "parentUUID": "64c95bf8-ee20-4f8d-9ffe-ae25f94ef6d8",
+              "uuid": "64104740-941b-4f37-bef6-2176b026e050",
+              "parentUUID": "07a99f76-9f87-4fe6-b67b-4145e892d7d6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6e50c78a-4d28-4397-bda8-1cd3a2a3894d",
-            "a01c681b-5feb-41fd-9472-c18d29c74a74",
-            "db11cdcc-4211-4386-b1e8-7faa2c5591f4",
-            "abee3d92-dabf-404e-879b-282756c64544"
+            "1dc4ad0d-9471-47a7-88b8-758938f7f758",
+            "0a9d14de-1ead-4ff7-8805-42d3825a2a76",
+            "4bc96d6f-64a6-48cf-a446-ed60cd5273d1",
+            "64104740-941b-4f37-bef6-2176b026e050"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3968,
+          "duration": 4317,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -147,7 +147,7 @@
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "6.2.2"
+      "version": "6.3.1"
     },
     "marge": {
       "options": {

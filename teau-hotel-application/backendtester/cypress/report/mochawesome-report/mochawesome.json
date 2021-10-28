@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-17T19:29:57.445Z",
-    "end": "2021-10-17T19:30:01.634Z",
-    "duration": 4189,
+    "start": "2021-10-28T21:17:32.970Z",
+    "end": "2021-10-28T21:17:37.980Z",
+    "duration": 5010,
     "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ecabd307-fb5c-4d16-bd8e-76556f9065a5",
+      "uuid": "43441949-9da4-4c2c-a231-d17afca8130d",
       "title": "",
       "fullFile": "cypress/integration/backend-auth.spec.js",
       "file": "cypress/integration/backend-auth.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "023ae920-b913-4fe4-8c34-089ac9764b3f",
+          "uuid": "2beef864-ed31-40a6-930d-80feae840c38",
           "title": "test auth",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Create client",
               "fullTitle": "test auth Create client",
               "timedOut": null,
-              "duration": 1008,
+              "duration": 1136,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "clientHelp.createCLientRequest(cy);",
               "err": {},
-              "uuid": "4560ee22-0718-4289-ba34-81d1ce6f2c8a",
-              "parentUUID": "023ae920-b913-4fe4-8c34-089ac9764b3f",
+              "uuid": "fb995070-ced2-4f5b-a37f-4ea037325eab",
+              "parentUUID": "2beef864-ed31-40a6-930d-80feae840c38",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Get all clients",
               "fullTitle": "test auth Get all clients",
               "timedOut": null,
-              "duration": 747,
+              "duration": 609,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "clientHelp.getAllClientsRequest(cy);",
               "err": {},
-              "uuid": "b08f8f10-4a6d-4882-acf9-7819bb8bad4a",
-              "parentUUID": "023ae920-b913-4fe4-8c34-089ac9764b3f",
+              "uuid": "fca35f5f-442f-4e77-87ec-0f978d5941bf",
+              "parentUUID": "2beef864-ed31-40a6-930d-80feae840c38",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Create a client and remove it",
               "fullTitle": "test auth Create a client and remove it",
               "timedOut": null,
-              "duration": 1186,
+              "duration": 2038,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "clientHelp.createCLientRequestAndDelete(cy);",
               "err": {},
-              "uuid": "e267ffe8-3264-45a8-b09f-fc1733d2636d",
-              "parentUUID": "023ae920-b913-4fe4-8c34-089ac9764b3f",
+              "uuid": "a7a545ac-a613-4d49-a682-494fb68ec782",
+              "parentUUID": "2beef864-ed31-40a6-930d-80feae840c38",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Create a client and update it",
               "fullTitle": "test auth Create a client and update it",
               "timedOut": null,
-              "duration": 1032,
+              "duration": 985,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -101,23 +101,23 @@
               "context": null,
               "code": "clientHelp.createCLientRequestAndUpdate(cy);",
               "err": {},
-              "uuid": "27a1a1c6-8068-4a23-9db5-d269c7c13f58",
-              "parentUUID": "023ae920-b913-4fe4-8c34-089ac9764b3f",
+              "uuid": "ae5cdf6a-f5d1-4841-9b3b-a9b82bf0c888",
+              "parentUUID": "2beef864-ed31-40a6-930d-80feae840c38",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4560ee22-0718-4289-ba34-81d1ce6f2c8a",
-            "b08f8f10-4a6d-4882-acf9-7819bb8bad4a",
-            "e267ffe8-3264-45a8-b09f-fc1733d2636d",
-            "27a1a1c6-8068-4a23-9db5-d269c7c13f58"
+            "fb995070-ced2-4f5b-a37f-4ea037325eab",
+            "fca35f5f-442f-4e77-87ec-0f978d5941bf",
+            "a7a545ac-a613-4d49-a682-494fb68ec782",
+            "ae5cdf6a-f5d1-4841-9b3b-a9b82bf0c888"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3973,
+          "duration": 4768,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -147,7 +147,7 @@
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "6.2.2"
+      "version": "6.3.1"
     },
     "marge": {
       "options": {
