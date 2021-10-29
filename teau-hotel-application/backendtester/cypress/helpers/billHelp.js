@@ -91,7 +91,7 @@ function createBillRequest(cy){
 
 
 
-function createBillRequestAndDelete(cy){
+function createBillRequestAndDeleteone(cy){
     cy.authSession().then((response =>{
         let fakeBillPayload = createRandomBillPayload()
 
@@ -140,7 +140,7 @@ function updateRequestAfterGet(cy){
     }))
 }
 
-function createBillRequestAndUpdate(cy){
+function createBillRequestAndUpdateone(cy){
     cy.authSession().then((response =>{
         let fakeBillPayload = createRandomBillPayload()
         // post request creates a bill
@@ -166,6 +166,6 @@ module.exports = {
     createRandomBillPayload,
     createBillRequest,
     getAllBillsRequest,
-    createBillRequestAndDelete,
-    createBillRequestAndUpdate
+    createBillRequestAndDeleteone,
+    createBillRequestAndUpdateone
 }

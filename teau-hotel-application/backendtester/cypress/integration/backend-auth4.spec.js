@@ -11,12 +11,12 @@ describe ('test auth', function(){
         reservationHelp.getAllReservationsRequest(cy)
      })
 
-    it('Create a reservation and remove it', function(){
-        reservationHelp.createReservationRequestAndDelete(cy)             
+    it('Create a reservation and remove one', function(){
+        reservationHelp.createReservationRequestAndDeleteone(cy)             
     })
 
-    it('Create a reservation and update it', function(){
-        reservationHelp.createReservationRequestAndUpdate(cy)
+    it('Create a reservation and update one', function(){
+        reservationHelp.createReservationRequestAndUpdateone(cy)
     })
 
 })

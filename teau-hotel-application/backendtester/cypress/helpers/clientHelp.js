@@ -108,7 +108,7 @@ function createCLientRequest(cy){
 
 
 
-function createCLientRequestAndDelete(cy){
+function createCLientRequestAndDeleteone(cy){
     cy.authSession().then((response =>{
         let fakeClientPayload = createRandomClientPayload()
 
@@ -157,7 +157,7 @@ function updateRequestAfterGet(cy){
     }))
 }
 
-function createCLientRequestAndUpdate(cy){
+function createCLientRequestAndUpdateone(cy){
     cy.authSession().then((response =>{
         let fakeClientPayload = createRandomClientPayload()
 
@@ -184,6 +184,6 @@ module.exports = {
     createRandomClientPayload,
     createCLientRequest,
     getAllClientsRequest,
-    createCLientRequestAndDelete,
-    createCLientRequestAndUpdate
+    createCLientRequestAndDeleteone,
+    createCLientRequestAndUpdateone
 }

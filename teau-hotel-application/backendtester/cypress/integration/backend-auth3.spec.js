@@ -11,12 +11,12 @@ describe ('test auth', function(){
         billHelp.getAllBillsRequest(cy)
      })
 
-    it('Create a bill and remove it', function(){
-        billHelp.createBillRequestAndDelete(cy)             
+    it('Create a bill and remove one', function(){
+        billHelp.createBillRequestAndDeleteone(cy)             
     })
 
-    it('Create a bill and update it', function(){
-        billHelp.createBillRequestAndUpdate(cy)
+    it('Create a bill and update one', function(){
+        billHelp.createBillRequestAndUpdateone(cy)
     })
 
 })

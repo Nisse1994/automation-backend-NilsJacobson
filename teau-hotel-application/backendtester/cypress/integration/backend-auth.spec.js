@@ -10,12 +10,12 @@ describe ('test auth', function(){
         clientHelp.getAllClientsRequest(cy)
      })
 
-    it('Create a client and remove it', function(){
-        clientHelp.createCLientRequestAndDelete(cy)             
+    it('Create a client and remove one', function(){
+        clientHelp.createCLientRequestAndDeleteone(cy)             
     })
 
-    it('Create a client and update it', function(){
-        clientHelp.createCLientRequestAndUpdate(cy)
+    it('Create a client and update one', function(){
+        clientHelp.createCLientRequestAndUpdateone(cy)
     })
 
 })

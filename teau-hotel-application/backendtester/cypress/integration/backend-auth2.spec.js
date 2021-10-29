@@ -11,12 +11,12 @@ describe ('test auth', function(){
         roomHelp.getAllRoomsRequest(cy)
      })
 
-    it('Create a room and remove it', function(){
-        roomHelp.createRoomRequestAndDelete(cy)             
+    it('Create a room and remove one', function(){
+        roomHelp.createRoomRequestAndDeleteone(cy)             
     })
 
-    it('Create a room and update it', function(){
-        roomHelp.createRoomRequestAndUpdate(cy)
+    it('Create a room and update one', function(){
+        roomHelp.createRoomRequestAndUpdateone(cy)
     })
 
 })

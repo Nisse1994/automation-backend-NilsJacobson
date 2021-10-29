@@ -96,7 +96,7 @@ function createRoomRequest(cy){
 
 
 
-function createRoomRequestAndDelete(cy){
+function createRoomRequestAndDeleteone(cy){
     cy.authSession().then((response =>{
         let fakeRoomPayload = createRandomRoomPayload()
 
@@ -145,7 +145,7 @@ function updateRequestAfterGet(cy){
     }))
 }
 
-function createRoomRequestAndUpdate(cy){
+function createRoomRequestAndUpdateone(cy){
     cy.authSession().then((response =>{
         let fakeRoomPayload = createRandomRoomPayload()
         // post request creates a roomt
@@ -171,6 +171,6 @@ module.exports = {
     createRandomRoomPayload,
     createRoomRequest,
     getAllRoomsRequest,
-    createRoomRequestAndDelete,
-    createRoomRequestAndUpdate
+    createRoomRequestAndDeleteone,
+    createRoomRequestAndUpdateone
 }

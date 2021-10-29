@@ -96,7 +96,7 @@ function createReservationRequest(cy){
 
 
 
-function createReservationRequestAndDelete(cy){
+function createReservationRequestAndDeleteone(cy){
     cy.authSession().then((response =>{
         let fakeReservationPayload = createRandomReservationPayload()
 
@@ -145,7 +145,7 @@ function updateRequestAfterGet(cy){
     }))
 }
 
-function createReservationRequestAndUpdate(cy){
+function createReservationRequestAndUpdateone(cy){
     cy.authSession().then((response =>{
         let fakeReservationPayload = createRandomReservationPayload()
         // post request creates a reservation
@@ -171,6 +171,6 @@ module.exports = {
     createRandomReservationPayload,
     createReservationRequest,
     getAllReservationsRequest,
-    createReservationRequestAndDelete,
-    createReservationRequestAndUpdate
+    createReservationRequestAndDeleteone,
+    createReservationRequestAndUpdateone
 }
